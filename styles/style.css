@@ -1,0 +1,33 @@
+#todoWarning {
+    display: flex;
+    justify-content: center;
+}
+
+#listHeader {
+    display: flex;
+    justify-content: center;
+}
+
+#todoInput {
+    width: 100%
+}
+
+#todoDelete {
+    display: flex;
+}
+
+.taskContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+body {
+    background-color: red;
+}
