@@ -30,11 +30,10 @@ tdAdd.addEventListener("click", function() {
         let createTask = document.createElement("article");
         createTask.innerText = input;
         
-        // Création du bouton Effacer
+        // Création du bouton Effacer en ajoutant les classes BootStrap btn et btn-danger
         let deleteButton = document.createElement("button");
         deleteButton.innerHTML = "Effacer";
-        deleteButton.classList.add("btn")
-        deleteButton.classList.add("btn-danger")
+        deleteButton.classList.add("btn", "btn-danger")
 
         // Insertion de la tâche et son bouton pour effacer
         taskContainer.appendChild(createTask);
